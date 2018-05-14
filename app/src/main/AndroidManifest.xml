@@ -11,17 +11,17 @@
         android:roundIcon="@mipmap/ic_launcher_app"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.joffrey.com.example.william.pokedex.MainActivity">
+        <activity android:name="com.example.william.pokedex.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.joffrey.com.example.william.pokedex.PokemonActivity" />
+        <activity android:name="com.example.william.pokedex.PokemonActivity" />
 
         <service
-            android:name="com.example.joffrey.com.example.william.pokedex.GetPokemonsServices"
+            android:name="com.example.william.pokedex.GetPokemonsServices"
             android:exported="false" />
     </application>
 

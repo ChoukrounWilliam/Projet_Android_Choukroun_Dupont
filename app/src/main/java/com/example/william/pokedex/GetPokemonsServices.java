@@ -21,7 +21,7 @@ import javax.net.ssl.HttpsURLConnection;
 
 public class GetPokemonsServices extends IntentService {
 
-    private static final String get_pokemon = "com.example.joffrey.com.example.william.pokedex.action.GetPokemonsServices";
+    private static final String get_pokemon = "com.example.william.pokedex.action.GetPokemonsServices";
     private static final String TAG = "GetPokemonsServices";
 
     public GetPokemonsServices() {

@@ -53,7 +53,7 @@ public class PokemonActivity extends AppCompatActivity {
         NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(this);
         mBuilder.setSmallIcon(android.R.drawable.ic_dialog_info);
         mBuilder.setContentTitle("POKEDEX");
-        mBuilder.setContentText("Il y a : " + getPokemonFromFile().length() + " pokemon dans ce com.example.william.pokedex");
+        mBuilder.setContentText("Il y a : " + getPokemonFromFile().length() + " pokemon dans ce pokedex");
         mBuilder.setPriority(NotificationCompat.PRIORITY_DEFAULT);
 
         NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
@@ -96,7 +96,7 @@ public class PokemonActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public static final String POKEMON_UPDATE = "com.example.joffrey.WeatherApp.POKEMON_UPDATE";
+    public static final String POKEMON_UPDATE = "com.example.william.pokedex.POKEMON_UPDATE";
 
     public class PokemonUpdate extends BroadcastReceiver {
 
