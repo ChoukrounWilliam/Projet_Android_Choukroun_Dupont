@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pokedex</string>
+    <string name="tv_title">POKEDEX</string>
+    <string name="button">Afficher quelque pokemon</string>
+    <string name="tv_autor">Par William et Cyriaque</string>
+</resources>

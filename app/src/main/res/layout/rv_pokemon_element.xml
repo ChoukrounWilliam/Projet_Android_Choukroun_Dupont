@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <ImageView
+        android:id="@+id/rv_element_image"
+        android:layout_width="133dp"
+        android:layout_height="76dp"
+        android:layout_above="@+id/rv_element_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-87dp"
+        android:src="@drawable/pokeball" />
+
+    <TextView
+        android:id="@+id/rv_element_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="87dp"
+        android:text="NAME"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/rv_element_attack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="121dp"
+        android:layout_toStartOf="@+id/rv_element_name"
+        android:text="ATTACK"
+        />
+
+    <TextView
+        android:id="@+id/rv_element_defence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rv_element_attack"
+        android:layout_toEndOf="@+id/rv_element_name"
+        android:text="DEFENCE" />
+
+    <TextView
+        android:id="@+id/rv_element_hp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="147dp"
+        android:text="HP" />
+
+    <TextView
+        android:id="@+id/rv_element_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="177dp"
+        android:text="WEIGHT"
+        android:layout_marginBottom="20dp"/>
+
+
+
+
+</RelativeLayout>
